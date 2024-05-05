@@ -1,0 +1,81 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.wordle-container {
+    background-color: #F0F0F0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.wordle-container h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.wordle-container p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Styling for input boxes */
+.row {
+    display: flex;
+}
+
+.letter-box {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    outline: none;
+}
